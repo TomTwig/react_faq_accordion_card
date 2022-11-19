@@ -4,10 +4,15 @@ import React from "react";
 
 function Faq_container(){
 
+    function handleClick(event, id){
+      
+        console.log(id)
+    }
 
 
 
-    const displayQuestions = faq_questions.map((question)=> <Faq_question key={question.id} question={question} />
+
+    const displayQuestions = faq_questions.map((question)=> <Faq_question key={question.id} myFunction={handleClick} question={question} />
     )
 
 return(
