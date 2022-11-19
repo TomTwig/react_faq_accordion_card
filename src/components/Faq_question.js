@@ -18,7 +18,7 @@ export default function Faq_question({ question, myFunction }) {
 
             </div>
 
-            {question.isAnswerShown} <p>{question.answer}</p>
+            {question.isAnswerShown && <p>{question.answer}</p> } 
 
 
         </div>

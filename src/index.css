@@ -22,3 +22,8 @@ img{
 .faq__question__question svg{
   width: 30px;
 }
+
+.faq__question__question button{
+background-color: transparent;
+border-width: 0;
+}
